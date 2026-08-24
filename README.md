@@ -11,19 +11,17 @@ voorheen.
 
 ## Installeren
 
-### Chrome
+Werkt hetzelfde in Chrome en Edge.
 
-1. Installeer [Tampermonkey](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-   uit de Chrome Web Store.
-2. Open de [installatielink](https://raw.githubusercontent.com/glgoose/select-search/main/dist/select-search.user.js).
-   Tampermonkey herkent het bestand en toont zijn installatiescherm in plaats van de broncode.
-3. Klik op installeren.
-
-### Edge
-
-Dezelfde stappen, maar haal Tampermonkey uit de **Edge Add-ons** store, niet uit de Chrome Web
-Store. [Violentmonkey](https://microsoftedge.microsoft.com/addons/detail/violentmonkey/) is een open
-source alternatief dat dezelfde scripts draait.
+1. Installeer Tampermonkey:
+   [Chrome](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   of [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd).
+2. Zet eenmalig **Allow user scripts** aan. Ga naar je extensiepagina
+   (`chrome://extensions` of `edge://extensions`), klik bij Tampermonkey op *Details* en zet die
+   schakelaar om. Zonder dat draait geen enkel userscript.
+3. Open de [installatielink](https://raw.githubusercontent.com/glgoose/select-search/main/dist/select-search.user.js).
+   Tampermonkey toont zijn installatiescherm in plaats van de broncode.
+4. Klik op installeren.
 
 Staat je browser onder beheer van je werkgever, dan kan het zijn dat extensies alleen van een
 goedgekeurde lijst mogen komen. Vraag dat na bij je IT-dienst voor je het probeert.
